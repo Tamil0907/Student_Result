@@ -1,0 +1,132 @@
+#top{
+background-color: aqua;
+padding: 10px 30px;
+text-align:center;
+justify-content: center;
+border: 2px solid black;
+}
+span{
+    color:rgb(229, 255, 0) ;
+    font-size: 60px;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+   gap:30px;
+    margin: 10px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+}
+#menu img {
+    height: 600px;
+    width: 700px;
+   
+}
+
+#mark tr {
+    line-height: 50px;
+   
+}
+
+#mark tr input{
+    text-align: center;
+    padding: 10px 10px;
+    color: blue;
+    font-weight: bold;
+
+}
+#mark tr td {
+   
+    font-weight: bold;
+    padding: 0px 10px;
+    
+}
+#tv9 ,#tv10, #tv11{
+    border: 2px solid yellow;
+    color: red;
+
+}
+#mark  button{
+    padding: 5px 30px;
+    border-radius:20PX;
+   
+}
+#b2{
+    background-color:red; 
+    margin: 0PX 10PX;
+}
+#b1{
+    background-color:cadetblue;
+    
+}
+#b3{
+    background-color:rgb(160, 124, 95);
+}
+#b1:hover
+{
+    box-shadow: 1px 10px 10px 0px cadetblue;  
+}
+#b2:hover
+{
+    box-shadow: 1px 10px 10px 0px red;  
+}
+
+#new1 td{
+    border: 2px solid yellow;
+    padding: 15px 1px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    
+   
+}
+
+
+#data {
+    border: 2px solid black;
+    background-color: pink;
+ 
+ 
+}
+
+
+#new1 ,#new3{
+    color:black;
+    background-color: aqua;
+    font-weight: bold;
+    padding: 1px 0px;
+    text-align: center;
+   
+}
+#b4 {
+    color:black;
+    background-color: rgb(157, 255, 0);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+}
+#b5 {
+    color:black;
+    background-color: rgb(255, 89, 0);
+    font-weight: bold;
+    margin: 0px 5px;
+    text-align: center;
+    border-radius: 50px;
+}
+#b6 {
+    color:black;
+    background-color: rgb(255, 0, 85);
+    font-weight: bold;
+   
+    text-align: center;
+    border-radius: 50px;
+}
+
+
+#gr{
+    color: red;
+}

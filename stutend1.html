@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="st1c.css">
+    
+    <script src='getData.js'> </script>
+</head>
+
+<body>
+
+    <div id="top">
+        <h1> STUDENT <span id="toprun"></span> </h1>
+    </div>
+
+    <div id="menu">
+
+        <img src="https://cdn.pixabay.com/photo/2023/10/05/11/06/student-8295511_1280.png">
+
+        <div id="mark">
+            <table>
+
+                <tr id="t1">
+                    <td>Student name</td>
+                    <td><input id="tv1" type="text" placeholder="Enter Name" value=""></td>
+                </tr>
+
+                <tr id="t2">
+                    <td>Student Rollnumber</td>
+                    <td><input id="tv2" type="text" placeholder="Enter rollnumber" value=""></td>
+                </tr>
+
+                <tr id="t3">
+                    <td>Student class</td>
+                    <td><input id="tv3" type="text" placeholder="Enter class" value=""></td>
+
+                </tr>
+
+                <tr id="t4">
+                    <td>Tamil mark</td>
+                    <td><input id="tv4" type="number" placeholder="mark" value=""></td>
+                </tr>
+
+                <tr id="t5">
+                    <td>English mark</td>
+                    <td><input id="tv5" type="number" placeholder="mark" value=""></td>
+                </tr>
+
+                <tr id="t6">
+                    <td>Maths mark</td>
+                    <td><input id="tv6" type="number" placeholder="mark" value=""></td>
+                </tr>
+
+                <tr id="t7">
+                    <td>Science mark</td>
+                    <td><input id="tv7" type="number" placeholder="mark" value=""></td>
+                </tr>
+
+                <tr id="t8">
+                    <td>Social mark</td>
+                    <td><input id="tv8" type="number" placeholder="mark" value=""></td>
+                </tr>
+
+                <tr id="t9">
+                    <td>Total mark</td>
+                    <td><input id="tv9"> </td>
+                </tr>
+
+                <tr id="t10">
+                    <td>Average mark</td>
+                    <td><input id="tv10"> </td>
+                </tr>
+
+                <tr id="t11">
+                    <td>Grade</td>
+                    <td><input id="tv11"></td>
+                </tr>
+
+
+                <tr id="t12">
+                    
+                    <td><button id="b1" onclick="add1()"> ADD</button></td>
+                    <td>
+                        <button id="b2" onclick="view1()"> VIEW</button>
+                         <button id="b3" onclick="result1()">RESULT</button>
+                     </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <td id="ingredients"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="data">
+
+        <table id="tab2">
+            <thead>
+                <tr id="new1">
+                    <td>S.NO</td>
+                    <td>Student Name</td>
+                    <td>Student R.N</td>
+                    <td>Student class</td>
+                    <td>Tamil mark</td>
+                    <td>English mark</td>
+                    <td>Maths mark</td>
+                    <td>Science mark</td>
+                    <td>Social mark</td>
+                    <td>Total mark</td>
+                    <td>Average mark</td>
+                    <td>Grade</td>
+                    <td>Edit & Delete & Update</td>
+                </tr>
+            </thead>
+        </table>
+
+    </div>
+
+    <script src="st1.js"> </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var tamil = new Typed('#toprun', {
+            strings: ['DETALS FORM.',],
+            typeSpeed: 150,
+            backspeed: 150,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
